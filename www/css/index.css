@@ -1,0 +1,33 @@
+
+/* Custom color theme */
+:root {
+    --f7-grid-gap: 3px;
+    --f7-theme-color: #Fbbfef;
+    --f7-theme-color-rgb: 175, 129, 240;
+    --f7-theme-color-shade: #D8A1E3;
+    --f7-theme-color-tint: #E3A1B5;
+    --f7-card-header-text-color: #000;
+    --f7-list-item-divider-height: 5px;
+    --f7-button-fill-text-color: #000;
+    /* --f7-list-item-divider-font-size: inherit;
+    --f7-list-item-divider-bg-color: rgba(0, 0, 0, 0.03);
+    --f7-list-item-divider-border-color: rgba(0, 0, 0, 0.22); */
+    /* --f7-popover-bg-color: #A0F069;
+    --f7-sheet-bg-color: #A0F069; */
+}
+
+/* @font-face {
+    font-family: 'Sono';
+} */
+
+body {
+    font-family: 'Sono';
+}
+
+img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

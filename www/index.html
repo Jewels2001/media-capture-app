@@ -35,6 +35,9 @@
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/framework7-bundle.min.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sono&display=swap" rel="stylesheet">
         <title>Media Capture App</title>
     </head>
     <body>
@@ -48,8 +51,15 @@
                     <!-- component is fixed to the page -->
         
                     <div class="page-content">
-                        <h1> Camera! </h1>
-        
+                        <div class="block">
+                            <h1> Camera! </h1>
+                            <button class="button button-round button-fill" id="takePic"> Say Cheese! </button>
+                            <div class="card">
+                                <div class="card-content card-content-padding" id="photos">
+                                    <!-- <img src="" alt="Placeholder :)" > -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
